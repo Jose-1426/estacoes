@@ -1,0 +1,37 @@
+table {
+    width: 25%;
+    height: 25%;
+  }
+  
+ td {
+    border: 3px solid red;
+    padding: 3px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .imagem{
+    background-image: url(imagem/estacoes.png);
+    background-size:cover;
+    background-position:center;
+    width: 200px;
+    height: 200px;
+  }
+  body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
+  #virado{
+    transform:rotate(-90deg)
+  }
+  .verde{
+    border-color: green;
+  }
+  .amarelo{
+    border-color: yellow;
+  }
+  .marrom{
+    border-color: brown;
+  }
+  .azul{
+    border-color: blue;
+  }
